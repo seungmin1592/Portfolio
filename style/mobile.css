@@ -1,0 +1,309 @@
+@charset "uft-8";
+
+@media (max-width:700px){
+	.wrap {
+		overflow:scroll;
+	}
+	.dot {
+		display:none;
+	}
+	.section {
+		overflow:hidden;
+	}
+	.title {
+		display:none;
+	}
+	.section:nth-child(1) .title {
+		display:block;
+	}
+	.title {
+		padding-left:30px;
+		font-size:17px;
+		position:fixed;
+		z-index:99;
+		width:96.6%;
+		height:80px;
+		background:#fff;
+	}
+	.main_title {
+		font-size:65px;
+		width:77%;
+	}
+	g {
+		stroke-width:15;
+	}
+	.foot_title:nth-child(3), .foot_title:nth-child(4) {
+		display: none;
+	}
+	.foot_title {
+		width:33%;
+		margin-top:5%;
+	}
+
+
+	/* about */
+	.intro {
+		width:100%;
+		height:80%;
+		margin-top:25%;
+		position:relative;
+	}
+	.introduce {
+		width:89%;
+		margin:auto;
+		position:absolute;
+		bottom:0;
+		left:7%;
+		height:45%;		
+	}
+	.introduce h3 {
+		font-size:28px;
+		height:30%;
+	}
+	.introduce p {
+		font-size:15px;
+		display:block;
+		width:83%;
+	}
+	.photo {
+		float:none;
+		margin:auto;
+		height:43%;
+		width:65%;
+	}
+
+    /* section_work_1 */
+	.section:nth-child(3) .port_image {
+		top:58%;
+		width:90%;
+		left:5%;
+		height:37%;
+	}
+	.section:nth-child(3) .port_info {
+		width:86%;
+		top:14%;
+		height:40%;
+		text-align:left;
+		right:3%;
+	}
+	.section:nth-child(3) .charles-simon {
+		font-size:37px;
+	}
+	.section:nth-child(3) .port_s_title {
+		font-size:23px;
+	}
+	.section:nth-child(3) .port_s_title_2 {
+		font-size:20px;
+	}
+	.section:nth-child(3) .charles-simon_title {
+		height:80%;
+	}
+	.section:nth-child(3) .charles-simon_title p {
+    	display:block;
+	}
+	.section:nth-child(3) .link {
+		width:91%;
+		height:5%;
+		top:51%;
+		left:6%;
+		display:block;
+	}
+	.section:nth-child(3) .view_page {
+		width:30%;
+		height:100%;
+	}
+
+
+	
+	/* section_work2 */
+    .section:nth-child(4) .port_image {
+		top:58%;
+		width:90%;
+		left:5%;
+		height:37%;
+	}
+	.section:nth-child(4) .port_info {
+		width:97%;
+		top:14%;
+		height:40%;
+		text-align:left;
+		right:-4%;
+		margin:0;
+	}
+	.section:nth-child(4) .pmo_title {
+		height:80%;
+	}
+	.section:nth-child(4) .pmo {
+		font-size:37px;
+	}
+	.section:nth-child(4) .port_s_title {
+		font-size:23px;
+	}
+	.section:nth-child(4) .port_s_title_2 {
+		font-size:20px;
+	}
+	.section:nth-child(4) .pmo_title p {
+		margin:10px 20px;
+		display:block;
+	}
+	.section:nth-child(4) .link {
+		width:64%;
+		height:12%;
+		top:46%;
+		left:34%;
+		display:block;
+	}
+	.section:nth-child(4) .view_page {
+		width:44%;
+		height:38%;
+		line-height:40px;
+	}
+
+	/* section_work3 */
+	.port_image {
+		top:58%;
+		width:90%;
+		left:5%;
+		height:37%;
+	}
+	.section:nth-child(5) .port_info {
+		width:86%;
+		top:14%;
+		height:40%;
+		text-align:left;
+		right:3%;
+	}
+	.section:nth-child(5) .posco {
+		font-size:37px;
+	}
+	.section:nth-child(5) .port_s_title {
+		font-size:23px;
+	}
+	.section:nth-child(5) .port_s_title_2 {
+		font-size:20px;
+	}
+	.section:nth-child(5) .posco_title {
+		height:80%;
+	}
+	.section:nth-child(5) .posco_title p {
+    	display:block;
+	}
+	.port_info {
+		width:74%;
+		top:12%;
+		height:40%;
+		text-align:left;
+		right:6%;
+	}
+	.posco_title {
+		height:80%;
+	}
+	.posco_title p {
+		display:block;
+	}
+	.link {
+		width:91%;
+		height:5%;
+		top:51%;
+		left:6%;
+		display:block;
+	}
+	.view_page {
+		width:30%;
+		height:100%;
+	}
+
+	
+
+
+	/* skill */
+	.skill {
+		display:block;
+	}
+	.skill_title {
+		height:15%;
+	}
+	.skill_in {
+		float:none;
+		width:100%;
+		height:16%;
+		margin-top:7%;
+	}
+	.skill_in:nth-child(2),.skill_in:nth-child(4) {
+		float:none;
+	}
+	.skill_icon {
+		height:69%;
+		margin-top:3%;
+		width:17%;
+	}
+	.skill_type {
+		width:78%;
+		margin-top:10px;
+	}
+	.skill_in h3 {
+		font-size:18px;
+		margin:0;
+	}
+	.skill_in p {
+		font-size:14px;
+	}
+
+	.html {
+		animation:html 1s ease forwards;
+	}
+	.css {
+		animation:html 1.3s ease forwards;
+	}
+	.java {
+		animation:js 1.6s ease forwards;
+	}
+	.jquery {
+		animation:jq 1.9s ease forwards;
+	}
+	.ps_ai {
+		animation:ps 2.2s ease forwards;
+	}
+
+
+
+	/* contact_section */
+	.contact_title {
+		height:15%;
+	}
+	.contents_box {
+		width:90%;
+		left:5%;
+		margin:0;
+	}
+	.detail {
+		left:0;
+		height:90%;
+		width:80%;
+		margin:auto;
+		bottom:0;
+		top:100px;
+	}
+	.detail p {
+		font-size:17px;
+	}
+	.video {
+		width:108%;
+		height:38%;
+		top:1%;
+		left:0;
+	}
+	.video h3 {
+		bottom:-15%;
+		left:25%;
+	}
+	.video video {
+		width:100%;
+		height:136%;
+	}
+
+	
+
+	
+
+}

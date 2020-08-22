@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+* { margin:0; padding:0; box-sizing:border-box;}
+
+li { list-style:none; }
+a { 
+	text-decoration:none; color:#000;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Gothic A1', sans-serif;
+}
+body, html { 
+	height:100%;
+	font-family: 'Poppins', sans-serif;
+  	font-family: 'Gothic A1', sans-serif; 
+}
+
+
+
+#wrap { 
+	width:100%; 
+	height:100%;
+}
+
+#headermenu { 
+	z-index:99; 
+	top:0; 
+	left:0;
+	width:100%; 
+	height:480px;
+	position:absolute; 
+}
+#header { 
+	width:100%; 
+	height:100px; 
+	position: relative;
+}
+h1 { 
+	width:20%; 
+	float:left; 
+	height:120px; 
+	cursor:pointer;
+}
+h1 img { 
+	width:200px; height:100%;
+	padding-left:30px;
+}
+.nav { 
+	float:left;
+	width:60%;
+	height:100%;
+}
+.main_nav {  
+	width:100%; 
+	height:100px;
+}
+.main_nav > li { 
+	float:left; 
+	line-height:100px;
+	text-align:center;
+	width:20%;
+	height: 100px;
+}
+.main_nav > li > a {
+	font-size:20px; color:#fff;
+}
+.sub_nav { 
+	display:none;
+	height:360px;
+	width:100%;
+	position:relative; z-index:99;
+	text-align:center;
+	border-right:1px solid #eee;
+	line-height:16px;
+}
+.sub_nav:first-child{ 
+	border-left:1px solid #eee; 
+}
+.sub_nav li { 
+	padding:20px 0; 
+}
+.nav_1 {  
+	width:20%; float:right;
+	height:100%; 
+	padding:38px 0 0 100px ;
+}
+.nav_1 a { 
+	 margin-top:4px;
+	 float:left;
+	 font-size:17px;
+	 color:#fff;
+   	font-weight:bold;
+}
+.search { 
+	width:25px;
+	height:25px;
+	float:left; 
+	margin:6px 32px;
+	cursor:pointer;
+}
+.search img { 
+	width:100%; 
+	height:100%; 
+}
+
+.menu { 
+	cursor:pointer;
+	width:30px; 
+	height:40px;
+	float:left; 
+	outline:none;
+}
+.menu img { 
+	width:100%; 
+	height:100%;
+
+}
+.menu_modal { 
+	width:100%;
+	height:100vh;
+	background:#fff;
+	position:relative;
+	top:0; left:0; 
+	display:none; 
+	opacity:0;
+}
+
+.m_header {	
+	width:1920px; 
+	height:100px;
+	position:relative;
+}
+.m_logo { 
+	width:200px; 
+	height:120px; 
+  	padding-left:30px;
+	position:absolute;
+}
+.m_logo > img { 
+	width:100%; 
+	height:100%; 
+}
+.m_close { 
+	width:35px; 
+	height:35px;
+	margin:40px 0 0 250px;
+	display:block;
+	background:none;
+	border:none;
+	cursor:pointer;
+	position:absolute;
+	display:inline-block;
+	outline:none;
+}
+.m_close img { 
+	width:100%; 
+	height:100%;
+}
+
+.m_contents { 
+  width:100%; 
+  height:100%;
+  padding:80px 80px 0 80px; 
+}
+.m_menu { 
+	font-size:30px; 
+	width:100%;
+	height:100%; 
+	padding-left:80px;
+	float:left;
+}
+.m_menu > li { 
+	float:left; 
+	text-align:center;
+	padding:0 80px;
+	font-weight:bold;
+	color:#006399;
+}
+.m_sub { 
+	font-size:17px;
+	margin-top:30px; 
+}
+.m_sub li {
+	padding:20px 0;
+}
+.main { 
+	width:100%; height:100vh;
+	background-image:url(../image/index/main_bg4.jpg);
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+	position:relative; top:0; left:0;   
+	background-size: 1920px 100vh;
+	position:relative;
+ }
+
+.thesharp {   
+	position:absolute;
+	bottom:60px; right:40px;
+	display:block;
+	width:200px;
+	background:none;
+	border:none;
+	height:100px;
+	cursor:pointer;
+	outline: none;
+}
+.thesharp_in { 
+	width:100px; 
+	height:100px;
+	float:left;
+}
+.thesharp img { 
+	width:100px; 
+	height:100px;
+}
+.thesharp_1 {
+	position:relative;
+  	width:100%;
+	height:100%;
+}
+.icon1 { 
+	background:url(../image/index/btn_arrow1.png) no-repeat center center;
+  	float:left;
+ 	width:50px; height:50px;
+ 	margin-top:25px;
+ 	z-index:4;
+ 	position:absolute;
+ 	left:50%;
+ 	margin-left:5px;
+}
+.icon2 {
+	border:1px solid #fff;
+	border-radius:50%;
+	float:left;
+	width:50px;
+	height:50px;
+	line-height:100px;
+	margin:25px 0 0 25px;
+	transition:0.5s ease;
+}
+
+
+
+.footer { 
+	width:100%; 
+	height:100px; 
+	background:#fff; 
+	color:#555;
+}
+.footer_in { 
+	width:1000px; 
+	height:100%; 
+	margin:0 auto;
+}
+.foot_menu { 
+	width:100%; 
+	height:35px; 
+	margin-top:15px; 
+}
+.foot_menu li { 
+	float:left;  
+	margin-right:15px; 
+}
+.foot_menu li a { 
+	text-align:center; 
+	font-size:14px; 
+	font-weight:bold;
+}
+.privacy a { 
+	color:#006399; 
+}
+.footer p { 
+	font-size:12px;
+    margin-top:10px;
+}

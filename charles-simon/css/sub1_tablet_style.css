@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+
+@media (min-width: 650px){
+	.shop_shop_title {
+		height:140px;
+		font-size:28px;
+		line-height:40px;
+	}
+
+
+  .shop_products_in h2 {
+  	font-size:28px;
+  }
+  .shop_products_in p {
+  	font-size:18px;
+  }
+  .shop_products_image {
+  	position:relative;
+    margin-bottom:10%;
+  }
+  .shop_products_image li {
+  	height:55vw;
+  }
+  .shop_products_image .products_contents_link {
+  	width:47%;
+  	height:38.5vw;
+  	float:right;
+  	margin:0;
+  }
+  .products_contents_link a {
+  	padding:100px 0;
+  }
+  
+  .shop_products_in:last-child .products_contents_link {
+  	float:left;
+  }
+
+
+
+
+
+
+}

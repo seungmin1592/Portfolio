@@ -1,0 +1,204 @@
+@charset "uft-8";
+
+@media (max-width:1150px){
+	/* main */
+	.main_title {
+		font-size:100px;
+		width:60%;
+	}
+	.foot_title {
+		width:15%;
+		margin-top:2%;
+	}
+	
+
+
+	/* about */
+	.intro {
+		width:66%;
+	}
+	.introduce {
+		width:100%;
+		height:50%;
+		margin-top:5%;
+	}
+	.introduce p {
+		margin-top:5%;
+	}
+	.photo {
+		margin-top:2%;
+		width:50%;
+		height:53%;
+	}
+
+	/* my skill */
+	.port_left {
+		left:1%;
+		width:48.7%
+	}
+	.port_right {
+		right:2%;
+	}
+
+	/* my works3 */
+	.section:nth-child(3) .port_image {
+		width:79%;
+		height:41%;
+		top:52.5%;
+		left:9%;
+	}
+	.section:nth-child(3) .port_info {
+		top:9.5%;
+		right:26%;
+		width:60%;
+		text-align:left;
+		height:34%;
+	}
+	.section:nth-child(3) .link {
+		width:60%;
+		height:10%;
+		top:44%;
+		left:30%;
+	}
+	.section:nth-child(3) .view_page {
+		width:30%;
+		height:50%;
+		font-size:13px; 
+	}
+
+
+	/* my works2 */
+	.section:nth-child(4) .port_image {
+		width:79%;
+		height:41%;
+		top:52.5%;
+		left:9%;
+	}
+	.section:nth-child(4) .port_info {
+		top:11.5%;
+		right:22%;
+		width:64%;
+		text-align:left;
+		height:34%;
+	}
+	.pmo_title {
+		height:100%;
+	}
+	.pmo_title p {
+		margin:10px 20px;
+	}
+	.section:nth-child(4) .link {
+		width:40%;
+		height:10%;
+		top:39%;
+		left:50%;
+	}
+	.section:nth-child(4) .view_page {
+		width:46%;
+		height:50%;
+		font-size:13px; 
+	}
+
+	/* my works1 */
+	.port_image {
+		width:79%;
+		height:41%;
+		top:52.5%;
+		left:9%;
+	}
+	.port_info {
+		top:9.5%;
+		right:26%;
+		width:60%;
+		text-align:left;
+		height:34%;
+	}
+	.link {
+		width:60%;
+		height:10%;
+		top:44%;
+		left:30%;
+	}
+	.view_page {
+		width:30%;
+		height:50%;
+		font-size:13px; 
+	}
+
+	/* skill_section */
+	.skill_title {
+		font-size:70px;
+		padding-top:5%;
+		width:75%;
+	}
+	.skill {
+		width:83%;
+		height:65%;
+	}
+	.skill_in {
+		margin:20px 0;
+		width:45%;
+	}
+	.skill_icon {
+		height:74%;
+		margin-top:5%;
+	}
+	.skill_bar {
+		padding-top:7px;
+	}
+	.skill_bar span {
+		top:0;
+		right:8px;
+	}
+	.skill_type h3 {
+		font-size:24px;
+	}
+	.skill_type p {
+		font-size:13px;
+	}
+
+
+	/* contact_section */
+	.contact_title {
+		width:75%;
+		font-size:70px;
+		padding-top:5%;
+	}
+	.contents_box img {
+		display:none;
+	}
+	.contents_box {
+		height:35%;
+		width:46%;
+		top:-5%;
+		margin-left:70px;
+	}
+	.detail {
+		left:10%;
+		right:0;
+		height:96%;
+	}
+	.detail p {
+		text-align:left;
+	}
+	.video {
+		width:49%;
+		height:49%;
+		top:-20%;
+		left:41%;
+		margin:0;
+	}
+	.video h3{ 
+		width:62%;
+		bottom:-15%;
+		left:29%;
+	}
+	.video a{
+		font-size:30px;
+	}
+	.video video {
+		width:105%;
+		height:122%;
+	}
+
+}	

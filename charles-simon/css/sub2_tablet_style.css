@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+
+@media (min-width: 650px){
+	.Bespoke_title {
+		height:80%;
+		margin:auto;
+		width:90%;
+	}
+  .Bespoke_title p {
+  	font-size:32px;
+  	line-height:38px;
+  }
+  .products_slider {
+  	height:750px;
+  }
+  .products_slider_section img {
+  	height:500px;
+  }
+  .products_slider_info h3 {
+  	font-size:28px;
+  }
+  .products_slider_info p {
+  	font-size:15px;
+  }
+  .bespoke_service {
+  	padding:0 5%;
+  }
+  .bespoke_p {
+  	font-size:16px;
+  	width:70%;
+  }
+
+}
